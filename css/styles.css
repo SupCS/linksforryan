@@ -11,8 +11,20 @@ body {
 }
 
 body {
-  background: black;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/ryanback.png);
   background-size: 100%;
+  filter: brightness(0.6);
+  z-index: -1;
 }
 
 .wrapper {
@@ -90,12 +102,18 @@ a {
 
 .icons {
   display: flex;
+  width: 500px;
   gap: 50px;
   justify-content: center;
 }
 
 .iconblock {
   display: inline-block;
+  width: 150px;
+}
+
+.iconblock h4 {
+  margin-top: 5px;
 }
 
 .videoframe {
