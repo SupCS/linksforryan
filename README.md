@@ -1,3 +1,3 @@
 # mylinks
 
-This is simply a website with links to my social networks. Particles and parallax effect are used here
+This is simply a website with links to different social networks for youtube bloger. Particles and parallax effect are used here
